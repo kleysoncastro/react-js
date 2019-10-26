@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css'
-import imgSand from './assets/sand.jpeg';
+import TechList from './components/TechList';
 
 function App() {
-  return <img src={imgSand} />
+  return <TechList />
 }
 
 export default App;
